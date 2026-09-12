@@ -5,13 +5,15 @@ body{
 }
 header{
     text-align: center;
-    background-color: aqua;
+    /*background-color: aqua;*/
     border-top-left-radius: 8px;
     padding: 30px;
     font-size: 30px;
     color: saddlebrown;
-    box-shadow: 0 1px 0 saddlebrown;
-    background-image: url("c:\Users\DeLL\Downloads\Telegram Desktop\photo_2026-09-12_15-41-13.jpg");
+    background-image: url("Images/photo_2026-09-12_15-41-37.jpg");
+}
+.main{
+    background-image:url("Images/photo_2026-09-12_17-04-55.jpg");
 }
 h1.title{
     font-family: sans-serif;
@@ -84,7 +86,7 @@ ul{
     align-items: center;
     gap: 0.2rem;
     padding: 5px;
-    border-bottom: 1px solid aqua;
+    border-bottom: 1px solid saddlebrown;
 }
 .Check{
     width: 20px;
