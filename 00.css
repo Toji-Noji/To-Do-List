@@ -1,0 +1,131 @@
+body{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    background-color: aqua;
+    border-top-left-radius: 8px;
+    padding: 30px;
+    font-size: 30px;
+    color: saddlebrown;
+    box-shadow: 0 1px 0 saddlebrown;
+    background-image: url("c:\Users\DeLL\Downloads\Telegram Desktop\photo_2026-09-12_15-41-13.jpg");
+}
+h1.title{
+    font-family: sans-serif;
+}
+form.list{
+    padding: 25px;
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+}
+input#addtasks{
+    border-width: 5px;
+    border-color: aqua;
+    border-radius: 8px;
+
+
+}
+button.press{
+    height: 30px;
+    border-width: 5px;
+    border-color: aqua;
+    border-radius: 8px;
+    cursor: pointer;
+}
+nav{
+    padding: 24px;
+    display: flex;
+    gap: 0.4rem;
+}
+button.filters{
+    width: 50px;
+    border-color: beige;
+    border-width: medium;
+    color: aqua;
+    border-radius: 8px;
+}
+p.empty{
+    color: saddlebrown;
+    padding: 25px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+button.clear{
+    color: aqua;
+    border-color: gray;
+    border-width: 4px;
+}
+span{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: aqua;
+    padding: 10px;
+}
+footer{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+button#clear{
+    border-radius: 8px;
+    border-color: aqua;
+    color: saddlebrown;
+}
+ul{
+    list-style-type: none;
+    padding: 2px;
+}
+.taskList li{
+    display:flex;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 5px;
+    border-bottom: 1px solid aqua;
+}
+.Check{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border: 2px solid saddlebrown;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+button.Check.is-checked{
+    border-color: beige;
+}
+.Check.is-hecked::after{
+    content: "#";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+}
+.remove-btn{
+    border-radius: 8px;
+    border-color: beige;
+    width: 35px;
+    height: 25px;
+    background-color: beige;
+    padding: 3px;
+    border-width: 3px;
+}
+.task-text{
+    flex: 1;
+}
+span.task-text.is-done{
+    text-decoration: line-through;
+}
+.empty{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 4rem;
+}
+.empty.is-hidden{
+    display: none;
+}
+
