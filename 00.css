@@ -47,7 +47,7 @@ button.filters{
     width: 50px;
     border-color: beige;
     border-width: medium;
-    color: aqua;
+    color: saddlebrown;
     border-radius: 8px;
 }
 p.empty{
@@ -57,7 +57,7 @@ p.empty{
     font-size: 30px;
 }
 button.clear{
-    color: aqua;
+    color: saddlebrown;
     border-color: gray;
     border-width: 4px;
 }
@@ -74,7 +74,7 @@ footer{
 }
 button#clear{
     border-radius: 8px;
-    border-color: aqua;
+    border-color: saddlebrown;
     color: saddlebrown;
 }
 ul{
