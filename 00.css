@@ -10,10 +10,10 @@ header{
     padding: 30px;
     font-size: 30px;
     color: saddlebrown;
-    background-image: url("Images/photo_2026-09-12_15-41-37.jpg");
+    background-image: url("images/ph1.jpg");
 }
 .main{
-    background-image:url("Images/photo_2026-09-12_17-04-55.jpg");
+    background-image:url("images/ph2.jpg");
 }
 h1.title{
     font-family: sans-serif;
@@ -26,7 +26,7 @@ form.list{
 }
 input#addtasks{
     border-width: 5px;
-    border-color: aqua;
+    border-color: saddlebrown;
     border-radius: 8px;
 
 
@@ -34,7 +34,7 @@ input#addtasks{
 button.press{
     height: 30px;
     border-width: 5px;
-    border-color: aqua;
+    border-color: saddlebrown;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -64,7 +64,7 @@ button.clear{
 span{
     font-size: 25px;
     font-family: sans-serif;
-    color: aqua;
+    color: saddlebrown;
     padding: 10px;
 }
 footer{
